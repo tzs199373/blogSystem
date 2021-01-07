@@ -48,9 +48,9 @@ iBlog：前端vue项目
 ```
  listen       81;
  server_name  localhost;
- location / {
+ location /iblog/ {
  			#vue iBlog
- 			proxy_pass http://127.0.0.1:8081/;
+ 			proxy_pass http://127.0.0.1:8081/iblog/;
          }
  
  location /blogweb/ { 
