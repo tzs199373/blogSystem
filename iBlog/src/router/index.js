@@ -6,6 +6,9 @@ import Article from '@/components/Article'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
+  base: '/iblog/',
+
   routes: [
     {
       path: '/',
